@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import ScrollProgress from "@/components/ScrollProgress";
+import FloatingIcon from "@/components/FloatingIcon";
 import IntroOverlay from "@/components/IntroOverlay";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <IntroOverlay />
       <ScrollProgress />
+      <FloatingIcon />
       <Nav />
       <main>
         <Hero />

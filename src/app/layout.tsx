@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
 import { profile } from "@/data/content";
+import { SITE_URL } from "@/data/site";
 import "./globals.css";
 
 const display = Space_Grotesk({
@@ -14,15 +15,81 @@ const body = Inter({
   subsets: ["latin"],
 });
 
+const title = `${profile.name} — ${profile.role}`;
+const description = `${profile.role} based in ${profile.location}, specializing in React, PHP, and REST APIs. Portfolio featuring work experience, skills, and an interactive 3D showcase.`;
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mahmoud-ghunaim.dev"),
-  title: `${profile.name} — ${profile.role}`,
-  description: `${profile.role} specializing in React, REST APIs, and performance optimization. Building interfaces — and exploring 3D on the web.`,
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: title,
+    template: `%s — ${profile.name}`,
+  },
+  description,
+  keywords: [
+    profile.name,
+    "Full Stack Developer",
+    "Front-End Developer",
+    "React Developer",
+    "WordPress Developer",
+    "PHP Developer",
+    "Jordan Developer",
+    "Zarqa",
+  ],
+  authors: [{ name: profile.name, url: profile.linkedin }],
+  creator: profile.name,
+  publisher: profile.name,
+  applicationName: `${profile.name} Portfolio`,
+  formatDetection: { email: false, address: false, telephone: false },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: `${profile.name} — ${profile.role}`,
-    description: `${profile.role} specializing in React, REST APIs, and performance optimization.`,
+    title,
+    description,
+    url: "/",
+    siteName: `${profile.name} Portfolio`,
+    locale: "en_US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#05050a",
+};
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: profile.fullName,
+  alternateName: profile.name,
+  jobTitle: profile.role,
+  url: SITE_URL,
+  email: `mailto:${profile.email}`,
+  telephone: profile.phone,
+  sameAs: [profile.linkedin],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: profile.location,
+  },
+  knowsAbout: ["React", "JavaScript", "PHP", "WordPress", "REST APIs"],
 };
 
 export default function RootLayout({
@@ -36,6 +103,11 @@ export default function RootLayout({
       className={`${display.variable} ${body.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#05050a] text-[#f2f2f7]">
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         {children}
       </body>
     </html>
