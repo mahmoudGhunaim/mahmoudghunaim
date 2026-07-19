@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">Hi 👋, I'm Mahmoud Ghunaim</h1>
+<h3 align="center">Front-End Developer | React • JavaScript • PHP</h3>
 
-## Getting Started
+<p align="center">
+  <a href="https://www.linkedin.com/in/mahmoud-ghunaim-01b658335/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:mahmoudghunaim132@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🧑‍💻 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎓 Bachelor's degree in Computer Science, Zarqa University *(Expected 2027)*
+- 💼 Front-End Developer at **Softylus**, building responsive and dynamic user interfaces
+- 🔌 Experienced in integrating REST APIs and optimizing application performance
+- 🤝 Comfortable working in Agile teams to ship high-quality products
+- 🤖 Passionate about leveraging AI tools to speed up development and problem-solving
+- 🌍 Based in Zarqa, Jordan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠️ Tech Stack
 
-## Learn More
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,php,tailwind,bootstrap,wordpress,shopify,git,github" alt="tech stack" />
+</p>
 
-To learn more about Next.js, take a look at the following resources:
+**Front-End:** React · JavaScript · HTML · CSS
+**Back-End:** PHP
+**Tools:** Git · GitHub · REST APIs · Bootstrap · Tailwind CSS
+**CMS:** WordPress · Shopify
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🤝 Soft Skills
 
-## Deploy on Vercel
+`Teamwork` · `Problem-Solving` · `Communication` · `Fast Learner`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" alt="Top Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&hide_border=true" alt="GitHub Streak"/>
+</p>
+
+---
+
+### 🌐 Languages
+
+Arabic (Native) · English (Intermediate)
+
+---
+
+### 📫 Get in Touch
+
+<p align="left">
+  📍 Zarqa, Jordan &nbsp;|&nbsp; 📧 mahmoudghunaim132@gmail.com &nbsp;|&nbsp; 📱 +962 78 999 5755
+</p>
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/mahmoud-ghunaim-01b658335/" target="_blank">Connect with me on LinkedIn</a>
+</p>
+
+---
+
+<p align="center"><i>Thanks for stopping by! ⭐ Feel free to explore my pinned repositories below.</i></p>
