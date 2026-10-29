@@ -80,22 +80,6 @@ portfolio: https://mahmoud-ghunaim.pages.dev
 
 </td>
 </tr>
-<tr>
-<td valign="top" width="50%">
-
-**🎓 Tharwah Academy**
-<br/>High-traffic WordPress course-selling platform in Saudi Arabia — custom plugins, theme development, staging-to-live releases.
-<br/><sub>WordPress · PHP · JavaScript</sub>
-
-</td>
-<td valign="top" width="50%">
-
-**💼 Tharwah Consulting**
-<br/>Consulting company website built with WordPress and Avada, focused on smooth UI/UX.
-<br/><sub>WordPress · Avada · CSS</sub>
-
-</td>
-</tr>
 </table>
 
 ---
